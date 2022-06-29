@@ -39,7 +39,7 @@ void Game::Reset()
 	Win = false;
 }
 
-void Game::ResetBall()
+void Game::ResetBall() 
 {
 	ball.x_position = paddle.x_position + paddle.width / 2;
 	ball.y_position = paddle.y_position - 1;
